@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/overtimes",
+      "handler": "overtime.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/overtimes/count",
+      "handler": "overtime.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/overtimes/:id",
+      "handler": "overtime.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/overtimes",
+      "handler": "overtime.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/overtimes/:id",
+      "handler": "overtime.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/overtimes/:id",
+      "handler": "overtime.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "timekeeping_gates",
+  "info": {
+    "name": "timekeeping-gate",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "summary": {
+      "type": "string"
+    },
+    "is_enable": {
+      "type": "boolean"
+    }
+  }
+}

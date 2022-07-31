@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "name": "employee",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "code": {
+      "type": "string",
+      "pluginOptions": {}
+    },
+    "phone_number": {
+      "type": "biginteger",
+      "pluginOptions": {}
+    },
+    "department": {
+      "model": "department"
+    },
+    "part_time": {
+      "type": "boolean",
+      "pluginOptions": {}
+    }
+  }
+}

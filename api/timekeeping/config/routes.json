@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/timekeepings",
+      "handler": "timekeeping.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/timekeepings/count",
+      "handler": "timekeeping.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/timekeepings/:id",
+      "handler": "timekeeping.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/timekeepings",
+      "handler": "timekeeping.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/timekeepings/:id",
+      "handler": "timekeeping.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/timekeepings/:id",
+      "handler": "timekeeping.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

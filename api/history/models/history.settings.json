@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "histories",
+  "info": {
+    "name": "history"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "day": {
+      "type": "date"
+    },
+    "time": {
+      "type": "time"
+    },
+    "employee": {
+      "model": "employee"
+    }
+  }
+}

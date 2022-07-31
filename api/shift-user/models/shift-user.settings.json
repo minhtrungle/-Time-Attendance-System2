@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shift_user",
+  "info": {
+    "name": "Shift User",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "shift": {
+      "model": "shift"
+    },
+    "employee": {
+      "model": "employee"
+    },
+    "shift_id": {
+      "type": "string"
+    },
+    "employee_id": {
+      "type": "string"
+    },
+    "work_dates": {
+      "type": "json"
+    }
+  }
+}

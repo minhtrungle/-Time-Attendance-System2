@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "in_outs",
+  "info": {
+    "name": "In Out"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "status": {
+      "type": "string"
+    },
+    "time": {
+      "type": "time"
+    }
+  }
+}

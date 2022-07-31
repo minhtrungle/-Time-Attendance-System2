@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/timekeeping-gates",
+      "handler": "timekeeping-gate.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/timekeeping-gates/count",
+      "handler": "timekeeping-gate.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/timekeeping-gates/:id",
+      "handler": "timekeeping-gate.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/timekeeping-gates",
+      "handler": "timekeeping-gate.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/timekeeping-gates/:id",
+      "handler": "timekeeping-gate.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/timekeeping-gates/:id",
+      "handler": "timekeeping-gate.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

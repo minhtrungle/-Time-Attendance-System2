@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "timekeepings",
+  "info": {
+    "name": "Timekeeping",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "department": {
+      "model": "department"
+    },
+    "term": {
+      "type": "date"
+    },
+    "order": {
+      "type": "biginteger"
+    },
+    "checkin": {
+      "type": "json"
+    },
+    "employee": {
+      "model": "employee"
+    }
+  }
+}

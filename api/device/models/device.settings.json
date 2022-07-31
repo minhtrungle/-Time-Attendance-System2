@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "devices",
+  "info": {
+    "name": "device",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "summary": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "department": {
+      "model": "department"
+    },
+    "Seri": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

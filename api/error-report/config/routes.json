@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/error-reports",
+      "handler": "error-report.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/error-reports/count",
+      "handler": "error-report.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/error-reports/:id",
+      "handler": "error-report.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/error-reports",
+      "handler": "error-report.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/error-reports/:id",
+      "handler": "error-report.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/error-reports/:id",
+      "handler": "error-report.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

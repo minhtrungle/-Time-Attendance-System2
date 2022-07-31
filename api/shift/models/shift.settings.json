@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shifts",
+  "info": {
+    "name": "shift",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "summary": {
+      "type": "string"
+    },
+    "started_at": {
+      "type": "time"
+    },
+    "ended_at": {
+      "type": "time"
+    },
+    "part_time": {
+      "type": "boolean"
+    }
+  }
+}

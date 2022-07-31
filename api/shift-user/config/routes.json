@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shift-users",
+      "handler": "shift-user.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shift-users/count",
+      "handler": "shift-user.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shift-users/:id",
+      "handler": "shift-user.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/shift-users",
+      "handler": "shift-user.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shift-users/:id",
+      "handler": "shift-user.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shift-users/:id",
+      "handler": "shift-user.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

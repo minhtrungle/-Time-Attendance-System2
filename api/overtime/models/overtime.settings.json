@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "overtimes",
+  "info": {
+    "name": "overtime"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "term": {
+      "type": "string"
+    },
+    "order": {
+      "type": "biginteger"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "department": {
+      "model": "department"
+    },
+    "days": {
+      "type": "json"
+    }
+  }
+}
