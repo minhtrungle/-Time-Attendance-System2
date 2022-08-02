@@ -17,6 +17,10 @@
     },
     "devices": {
       "collection": "device"
+    },
+    "employee": {
+      "via": "department",
+      "model": "employee"
     }
   }
 }
