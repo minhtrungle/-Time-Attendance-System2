@@ -1,4 +1,4 @@
 # Strapi application
 
-*yarn install 
-*yarn develop chạy local
+**yarn install 
+**yarn develop 
