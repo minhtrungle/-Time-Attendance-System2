@@ -34,6 +34,9 @@
     },
     "title": {
       "type": "string"
+    },
+    "departments": {
+      "type": "text"
     }
   }
 }
