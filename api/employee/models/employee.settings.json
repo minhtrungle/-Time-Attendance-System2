@@ -35,8 +35,8 @@
     "title": {
       "type": "string"
     },
-    "departments": {
-      "type": "text"
+    "location": {
+      "type": "string"
     }
   }
 }
