@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "late_earlies",
+  "info": {
+    "name": "Late Early",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "term": {
+      "type": "string"
+    },
+    "order": {
+      "type": "biginteger"
+    },
+    "department": {
+      "model": "department"
+    },
+    "users_permissions_user": {
+      "model": "department"
+    },
+    "late_checking": {
+      "type": "json"
+    },
+    "early_leaves": {
+      "type": "json"
+    },
+    "late_checking_total": {
+      "type": "biginteger"
+    },
+    "early_leaves_total": {
+      "type": "biginteger"
+    },
+    "leate_checking_early_leaves_ratio": {
+      "type": "float"
+    }
+  }
+}

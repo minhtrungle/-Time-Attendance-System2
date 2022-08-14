@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/late-earlies",
+      "handler": "late-early.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/late-earlies/count",
+      "handler": "late-early.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/late-earlies/:id",
+      "handler": "late-early.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/late-earlies",
+      "handler": "late-early.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/late-earlies/:id",
+      "handler": "late-early.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/late-earlies/:id",
+      "handler": "late-early.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
